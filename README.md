@@ -45,7 +45,7 @@ Chatbot Response
 ## ▶️ Cara Menjalankan
 
 1. Clone repo ini
-2. Buka file `FINAL_FIKS_ASLIII_Chat_Bot_Akademik_STT_NF.ipynb` di Google Colab
+2. Buka file `Chat Bot Akademik STT NF.ipynb` di Google Colab
 3. Jalankan semua cell dari atas ke bawah secara berurutan
 4. Pastikan sudah set Groq API key di Colab Secrets dengan nama `grok_api`
 5. Jalankan cell Gradio di bagian akhir untuk membuka UI chatbot
@@ -75,4 +75,4 @@ Chatbot Response
 
 ## 🏫
 
-STT Terpadu Nurul Fikri — Mata Kuliah Natural Language Processing 2024/2025
+STT Terpadu Nurul Fikri — Mata Kuliah Natural Language Processing 2026
