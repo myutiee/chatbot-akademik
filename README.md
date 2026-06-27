@@ -4,7 +4,7 @@ Chatbot berbasis RAG (Retrieval-Augmented Generation) untuk menjawab pertanyaan 
 
 ## 📸 Demo UI
 
-![Demo Chatbot](screenshots/demo.png)
+![Demo Chatbot](demo.png)
 
 ## 📌 Deskripsi
 
