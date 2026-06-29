@@ -6,6 +6,10 @@ Chatbot berbasis RAG (Retrieval-Augmented Generation) untuk menjawab pertanyaan 
 
 ![Demo Chatbot](demo.png)
 
+## 🚀 Demo Live
+
+🤗 [Coba Chatbot di HuggingFace Spaces](https://huggingface.co/spaces/mutiee/chatbot-akademik-sttnnf)
+
 ## 📌 Deskripsi
 
 Sistem chatbot ini dibangun menggunakan pipeline RAG yang menggabungkan:
@@ -54,6 +58,22 @@ Chatbot Response (Gradio UI)
 3. Jalankan semua cell dari atas ke bawah secara berurutan
 4. Set Groq API key di Colab Secrets dengan nama `groq_api`
 5. Jalankan cell Gradio di bagian akhir untuk membuka UI chatbot
+
+## ⚙️ API yang Digunakan
+
+| API | Fungsi | Keterangan |
+|-----|--------|------------|
+| **Groq API** | Inference LLM LLaMA 3.3-70b-versatile | Gratis dengan limit |
+
+### Limit Groq API (Free Tier)
+- 30 request per menit
+- 14.400 token per menit
+- 500.000 token per hari
+
+> Jika chatbot tidak merespons, kemungkinan terkena rate limit. Tunggu beberapa detik dan coba lagi.
+
+### Cara Set API Key
+Untuk menjalankan secara lokal, tambahkan Groq API key di environment variable dengan nama `GROQ_API_KEY`. API key bisa didapatkan secara gratis di [console.groq.com](https://console.groq.com).
 
 ## 📊 Hasil Evaluasi
 
